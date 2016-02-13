@@ -1,0 +1,68 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/how-to-build-a-simple-responsive-wordpress-site-with-twitter-bootstrap
+Description: A simple responsive theme built with Bootstrap
+Author: Zac Gordon
+Author URI: http://zacgordon.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This is an example theme to go along with the Treehouse blog post on <a href="http://teamtreehouse.com/how-to-build-a-responsive-wordpress-site-with-twitter-bootstrap">How to Build a Simple Responsive WordPress Site Using Twitter Bootstrap</a>.
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+@import url('font-awesome-4.5.0/css/font-awesome.min.css'); 
+
+
+body { 
+	padding-top: 10px; 
+	padding-bottom: 40px; 
+}
+
+.navbar-inverse {
+	background-color: #353535;
+	border-color: #353535;
+	margin:0px;
+}
+.navbar-default{
+	background-color: #F2F2F2;
+	border-color: #F2F2F2;
+}
+
+div.container {
+    border: 2px solid black;
+    margin-left: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+li {
+	border-right: 1px solid #bbb;
+	font-size:18px;
+	font-family: "Lato";
+}
+
+/*style de los articulos*/
+    .thumbnail {
+        position: relative;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+        .thumbnail:hover {
+            background-color: #5CB85C;
+        }
+
+    .votes {
+        font-size: 47px;
+        color: #197BB5;
+        padding: 10px;
+    }
+
+    .thumbnail img {
+        width: 100%;
+    }
