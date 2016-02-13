@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-
-
     <!-- Use a container to wrap the slider, the purpose is to enable slider to always fit width of the wrapper while window resize -->
     <div class="container">
         <!-- Jssor Slider Begin -->
@@ -139,9 +137,6 @@
                     $content = $_post->post_content;
 					echo $content;
                     echo '</p>
-                    <p class="text-center">
-                        <i class="fa fa-thumbs-o-up votes"></i><i class="fa fa-thumbs-o-down votes"></i>
-                    </p>
                 </div>
             </div>
         </div>';
@@ -150,6 +145,5 @@
 	?>
 	</div>
   </div>
-
 
 <?php get_footer(); ?>
